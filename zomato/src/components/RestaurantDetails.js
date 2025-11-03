@@ -85,7 +85,7 @@ const RestaurantDetails = () => {
       </div>
 
       {cart.length > 0 && (
-        <Card className="mt-4 shadow-lg border-0" style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 1000, borderRadius: '15px 15px 0 0' }}>
+        <Card className="mt-4 shadow-lg border-0 fixed-bottom-cart" style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 1000, borderRadius: '15px 15px 0 0' }}>
           <Card.Body className="p-3">
             <h5 className="mb-3">Cart Summary</h5>
             <ListGroup variant="flush">
